@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      body {
+        margin: 0;
+      }
+      .button {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        border-radius: 7px;
+        padding: 11px 15px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        /* margin: 0px 10px; */
+      }
+      .button-1:hover {
+        background-color: #7731d8;
+      }
+      .button-1:active {
+        background-color: #612dae;
+      }
+      .button-1 {
+        border: 0px;
+        background-color: #8b3eff;
+        color: #ffffff;
+        position: relative;
+        z-index: 1;
+      }
+      .button-2 {
+        border: 1px solid #d6dade;
+        background-color: #ffffff;
+        color: #000000;
+        position: absolute;
+        right: -10px;
+        top: 10px;
+        z-index: 2;
+      }
+      .button-2:hover {
+        background-color: #f2f3f5;
+      }
+      .button-2:active {
+        background-color: #e2e4e7;
+      }
+      h1 {
+        color: yellow;
+      }
+      .the-tieu-de {
+        color: red;
+      }
+      #the-1 {
+        color: blue;
+      }
+      .layout-test {
+        position: relative;
+        background-color: rgb(103, 20, 20);
+        width: fit-content;
+      }
+      .layout {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        background-color: #094136;
+        /* justify-content: flex-end; */
+        flex-direction: row;
+        gap: 5px;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+      }
+      .content-block {
+        padding: 10px;
+        background-color: #137864;
+      }
+      /* .cb-1 {
+        width: 100px;
+      }
+      .cb-2 {
+        width: 30px;
+      }
+      .cb-3 {
+        width: 80px;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="content-block cb-1">Content 1</div>
+      <div class="content-block cb-2">Content 2</div>
+      <div class="content-block cb-3">Content 3</div>
+    </div>
+    <!-- <div class="layout-test">
+      <button class="button button-1">Start designing</button>
+      <button class="button button-2">Log in</button>
+    </div>
+    <h1 class="the-tieu-de" id="the-1" style="color: green">Hello</h1>
+    <h1 id="the-1">Hello</h1>
+    <div>Hello</div> -->
+  </body>
+</html>
